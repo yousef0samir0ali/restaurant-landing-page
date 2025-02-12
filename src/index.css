@@ -1,0 +1,10 @@
+:root {
+  --main-color: #fea150;
+  --primary-color: #ffbc82;
+}
+* {
+  font-family: "Poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

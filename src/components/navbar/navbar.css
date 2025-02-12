@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 33px 100px;
+  height: 100px;
+
+  width: 100%;
+}
+.navbar .logo img {
+  margin-right: 20px;
+}
+.navbar .logo span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #333333;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  width: 60%;
+}
+.navbar ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0%;
+  margin-right: 65px;
+  color: #333333;
+  cursor: pointer;
+}
+.navbar .lock img {
+  width: 24px;
+  height: 24px;
+}
