@@ -8,6 +8,7 @@ import image4 from "/src/assets/images/image4.png";
 import image5 from "/src/assets/images/image5.png";
 import arrow from "/src/assets/icons/arrow.svg";
 import { useState } from "react";
+import Arrow from "../../components/arrow/Arrow";
 
 export default function CircleGallery({ setButton }) {
   const images = [image1, image2, image3, image4, image5, image4];
@@ -78,18 +79,13 @@ export default function CircleGallery({ setButton }) {
             </div>
           ))}
         </div>
-        <div
-          onClick={rotateLeft}
-          className={`arrow left-arrow ${disableLeft ? "disabled" : ""}`}
-        >
-          <img src={arrow} alt="arrow" />
-        </div>
-        <div
-          onClick={rotateRight}
-          className={`arrow right-arrow ${disableRight ? "disabled" : ""} `}
-        >
-          <img src={arrow} alt="arrow" />
-        </div>
+        <Arrow
+          rotateLeft={rotateLeft}
+          rotateRight={rotateRight}
+          disableLeft={disableLeft}
+          disableRight={disableRight}
+          arrow={arrow}
+        />
       </div>
     </div>
   );

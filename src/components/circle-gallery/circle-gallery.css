@@ -95,25 +95,3 @@
   visibility: hidden;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
-.disabled {
-  opacity: 0.5;
-  pointer-events: none;
-}
-.arrow {
-  position: absolute;
-  bottom: 0;
-  background-color: var(--main-color);
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  cursor: pointer;
-}
-.left-arrow {
-  left: 0;
-}
-.right-arrow {
-  right: 0;
-}
